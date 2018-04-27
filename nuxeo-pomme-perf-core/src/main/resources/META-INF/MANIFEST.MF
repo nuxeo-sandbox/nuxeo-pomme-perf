@@ -1,0 +1,10 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.nuxeo.pomme.perf
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-pomme-perf-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: nuxeo-pomme-perf-core;singleton=true
+Nuxeo-Component: OSGI-INF/listener-contrib.xml,
+    OSGI-INF/queue-contrib.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component name="disable-metadata-queue">
+
+    <require>org.nuxeo.pomme.perf.queues</require>
+
+    <extension target="org.nuxeo.ecm.core.work.service" point="queues">
+        <queue id="MetadataExtraction" processing="false">
+            <maxThreads>2</maxThreads>
+            <category>binaryMetadataExtraction</category>
+            <category>videoInfo</category>
+        </queue>
+    </extension>
+
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.pomme.perf.queues">
+
+    <require>org.nuxeo.ecm.platform.picture.workmanager</require>
+
+    <extension target="org.nuxeo.ecm.core.work.service" point="queues">
+
+        <queue id="MetadataExtraction">
+            <maxThreads>2</maxThreads>
+            <category>binaryMetadataExtraction</category>
+            <category>videoInfo</category>
+        </queue>
+
+    </extension>
+
+</component>
