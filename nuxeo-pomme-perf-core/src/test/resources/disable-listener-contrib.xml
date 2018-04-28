@@ -1,0 +1,11 @@
+<component name="disable-listeners">
+
+    <require>org.nuxeo.pomme.perf.listeners</require>
+
+    <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+        <listener name="customBinaryMetadataListener" async="false" postCommit="false"
+                  class="org.nuxeo.pomme.perf.CustomBinaryMetadataListener" priority="20" enabled="false">
+        </listener>
+    </extension>
+
+</component>

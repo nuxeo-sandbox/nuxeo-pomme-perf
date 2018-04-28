@@ -3,7 +3,6 @@ package org.nuxeo.pomme.perf;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.nuxeo.ecm.automation.test.AutomationFeature;
 import org.nuxeo.ecm.core.api.CoreSession;
 import org.nuxeo.ecm.core.api.DocumentModel;
 import org.nuxeo.ecm.core.api.impl.blob.FileBlob;
@@ -28,7 +27,9 @@ import java.io.File;
         "org.nuxeo.ecm.platform.picture.core",
         "org.nuxeo.ecm.platform.tag",
         "org.nuxeo.binary.metadata",
-        "org.nuxeo.ecm.actions"
+        "org.nuxeo.ecm.actions",
+        "nuxeo-pomme-perf-core:disable-metadata-queue-contrib.xml",
+        "nuxeo-pomme-perf-core:disable-listener-contrib.xml"
 })
 public class TestBinaryMetadataWorker {
 

@@ -52,7 +52,7 @@ import java.util.List;
         "org.nuxeo.ecm.platform.tag",
         "org.nuxeo.binary.metadata",
         "org.nuxeo.ecm.actions",
-        "nuxeo-pomme-perf-core:disable-metadata-queue-contrib.xml",
+        "nuxeo-pomme-perf-core:disable-metadata-queue-contrib.xml"
 })
 public class TestListener {
 
